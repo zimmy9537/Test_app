@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         avengers = new ArrayList<>();
 
         avengers.add(new Avengers("SuperMan", ratingStringSuper, R.drawable.superman));
-        avengers.add(new Avengers("SpiderMan", ratingStringSpider, R.drawable.spiderman));
+        avengers.add(new Avengers("SpiderMan", ratingStringSpider, R.drawable.spiderman4));
         avengers.add(new Avengers("Hulk", ratingStringHulk, R.drawable.hulk));
 
         avengersAdapter = new AvengersAdapter(avengers, this);
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         avengers = new ArrayList<>();
 
         avengers.add(new Avengers("SuperMan", ratingStringSuper, R.drawable.superman));
-        avengers.add(new Avengers("SpiderMan", ratingStringSpider, R.drawable.superman));
+        avengers.add(new Avengers("SpiderMan", ratingStringSpider, R.drawable.spiderman4));
         avengers.add(new Avengers("Hulk", ratingStringHulk, R.drawable.hulk));
 
         avengersAdapter = new AvengersAdapter(avengers, this);
